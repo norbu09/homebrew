@@ -2,13 +2,13 @@ require 'formula'
 
 class XapianBindings < Formula
   homepage 'http://xapian.org'
-  url 'http://oligarchy.co.uk/xapian/1.2.13/xapian-bindings-1.2.13.tar.gz'
+  url 'http://oligarchy.co.uk/xapian/1.3.1/xapian-bindings-1.3.1.tar.gz'
   sha1 '0cffc6ae2df295d2f8bc052831ed225e60236e92'
 end
 
 class Xapian < Formula
   homepage 'http://xapian.org'
-  url 'http://oligarchy.co.uk/xapian/1.2.13/xapian-core-1.2.13.tar.gz'
+  url 'http://oligarchy.co.uk/xapian/1.3.1/xapian-core-1.3.1.tar.gz'
   sha1 'ae5edc64671c5f32a3a24abf8cc3028cb56f6c6b'
 
   option "java",   "Java bindings"
